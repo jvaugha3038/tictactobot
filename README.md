@@ -100,6 +100,7 @@ The final product is, admittedly, not exactly what we had hoped for. Yes, it can
   * We can stack 2 of the blue squares (or really any acrylic things)
 * One of the arm gears keeps falling off.
   * I'd also love to know the solution. Just hope it doesn't do that.
-
+* The arm can't rotate over to the slot where it should pick up pieces. (???? It worked fine before??)
+  * This problem just appeared randomly, and our solution is shenanigans. Just fiddle with the blue square tiles and it'll work.
 # `Reflection`
 It is very apparent that we both underestimated the difficulty of this project and overestimated our own ability to be productive. We finished this project late (and took multiple shortcuts), but the thing can play tic-tac-toe. It can't cheat because we ran out of time, and adding that would probably double the length of the code (which is already ~500 lines). Seeing as we were completely underprepared for this whole endeavor, it went pretty well. The robot does exist, and it can play the game with some difficulty, so overall it was mostly successful.

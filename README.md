@@ -79,12 +79,14 @@ The final product is, admittedly, not exactly what we had hoped for. Yes, it can
   * Added a small 3D printed part to the front of the box that allows the servo to be screwed in place.
 * We waited about 2 weeks to get string and magnets
   * yeah that one is just our fault, get the stuff early next time
-* String is flimsy and keeps breaking.
-  * Make the servo spin slower (and hope for the best)
+* String is flimsy and terrible and horrible and keeps breaking and makes me sad.
+  * The string is the main source of misery. Don't even look at it because it _will_ break/slip off the servo.
 * We used so much acrylic.
   * Plan better. Don't use T-slot joints for the box. 
 * Most drunk people have more hand dexterity than this robot.
   * This is a lot of fiddling with variables and offsets. Its doable, but the amount of guess-and-check required is too much for now. We did make progress with it, though.
+* We can't take the box apart anymore because of wires and stuff.
+  * Well that _WOULDN'T_ have been a problem if everything hadn't immediately gone wrong.
 ## Less severe problems
 * Servo responsible for rotating the arm wasn’t aligned properly.
   * Added an offset into the code to account for this.

@@ -65,11 +65,9 @@ The final product is, admittedly, not exactly what we had hoped for. Yes, it can
 1. It scans each spot on the board, looking for the newest piece played
 2. Goes to the side and grabs a piece
 3. Places said piece in the optimal spot
-
-3.5. Arm gear falls off
-
-3.6. We put the arm gear back on
-4. Waits for player to take their turn.
+4. Arm gear falls off
+5. We put the arm gear back on
+6. Waits for player to take their turn.
 
 # `Problems`
 ## Big problems

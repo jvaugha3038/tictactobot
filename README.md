@@ -32,7 +32,7 @@ https://cvilleschools.onshape.com/documents/9f7a2ab06042344ad68077a3/w/577d4a05b
 Our proof of concept was planned to be a small-scale rack and pinion gear that would represent the arm of the robot (A.K.A the extendo part), and the device we would use to pick up the pieces (the pick-uppy part). However, we did not get any string or magnets in time for the proof of concept, so we just created the small extendo arm.
 
 # `Code`
-
+(check the file for now, we'll post it here when its done)
 
 # `Building`
 ## Pieces

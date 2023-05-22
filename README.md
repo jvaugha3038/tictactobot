@@ -22,6 +22,7 @@ For this project the robot just needs to be able to move in a square shape in fr
 Another thing related to the servos is how much force they can exert. Especially when working with micro servos, you have to be aware of their weight limits. This project was luckily very light on the arm, but if you’re going to be putting any real strain on the servos you should do the math to make sure they can handle it.
 
 ![image](https://github.com/jvaugha3038/tictactobot/assets/112961338/d77939f4-6d30-4ff8-927b-d7cd59fc573f)
+
 If you’re ever struggling to think of things your robot needs to do (or even if you aren’t), I recommend looking back at the purpose of your robot and thinking about how you can achieve these things. This helped us realize that we hadn’t planned on how we would detect the pieces on the board (we wouldn’t want a blind tic-tac-toe robot would we?). Luckily for us, this was relatively early on, and we were given the idea of an infrared sensor by Mr. Helmstetter. This sensor can measure how reflective an object is by shining an invisible light on it, and by using different materials for our X’s and O’s, we can use it to differentiate between the board and those two.
 
 ## First Sketches

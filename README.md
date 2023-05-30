@@ -60,6 +60,7 @@ This part is responsible for picking up and dropping pieces, and it's attached t
 ![image](https://github.com/jvaugha3038/tictactobot/assets/112961338/8314c021-9074-407b-83d8-fbfc39e086c0)
 
 # `End Result`
+![video](https://drive.google.com/file/d/1-kuSQMUnB3fWygMkd3tYXb0H9D9MQYEh/view?usp=sharing)
 [![Functioning Video]({https://drive.google.com/file/d/17hCYvw_B6M56ZdMtuNaiX5kfcro3rRDn/view?usp=sharing})]({https://drive.google.com/file/d/1-kuSQMUnB3fWygMkd3tYXb0H9D9MQYEh/view?usp=sharing} "It works!")
 The final product is, admittedly, not exactly what we had hoped for. Yes, it can pick up pieces and place them (with some difficulty), but it is also not great at seeing pieces on the board. This means that it occasionally will completely miss a piece, and place one on top of it. This does mean that we can say "Oh it was supposed to cheat anyway" and move on, but besides that, the robot itself is very creaky for some reason. This might just be because we left it in the bin for a while to work on the other project. 
 ## What does the thing actually do?

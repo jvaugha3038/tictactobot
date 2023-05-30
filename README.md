@@ -1,7 +1,7 @@
 # tictactobot
 
 ## Table of Contents
-* [Table of Contents](#TableOfContents)
+* [Table of Contents](#Table-of-Contents)
 * [Goal](#Goal)
 * [Planning](#Planning)
 * [CAD](#CAD)

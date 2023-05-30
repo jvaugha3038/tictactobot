@@ -60,12 +60,12 @@ This part is responsible for picking up and dropping pieces, and it's attached t
 ![image](https://github.com/jvaugha3038/tictactobot/assets/112961338/8314c021-9074-407b-83d8-fbfc39e086c0)
 
 # `End Result`
-The final product is, admittedly, not exactly what we had hoped for. Yes, it can pick up pieces and place them (with some difficulty), but it is also not great at seeing pieces on the board. This means that it occasionally will completely miss a piece, and place one on top of it. This does mean that we can say "Oh it was supposed to cheat anyway" and move on, but besides that, the robot itself is very creaky for some reason. This might just be because we left it in the bin for a while to work on the other projects. 
+The final product is, admittedly, not exactly what we had hoped for. Yes, it can pick up pieces and place them (with some difficulty), but it is also not great at seeing pieces on the board. This means that it occasionally will completely miss a piece, and place one on top of it. This does mean that we can say "Oh it was supposed to cheat anyway" and move on, but besides that, the robot itself is very creaky for some reason. This might just be because we left it in the bin for a while to work on the other project. 
 ## What does the thing actually do?
 1. It scans each spot on the board, looking for the newest piece played
 2. Goes to the side and grabs a piece
 3. Places said piece in the optimal spot
-4. Arm gear falls off
+4. Arm gear falls off because of course it does
 5. We put the arm gear back on
 6. Waits for player to take their turn.
 
@@ -86,7 +86,7 @@ The final product is, admittedly, not exactly what we had hoped for. Yes, it can
 * Most drunk people have more hand dexterity than this robot.
   * This is a lot of fiddling with variables and offsets. Its doable, but the amount of guess-and-check required is too much for now. We did make progress with it, though.
 * We can't take the box apart anymore because of wires and stuff.
-  * Well that _WOULDN'T_ have been a problem if everything hadn't immediately gone wrong.
+  * Well that _WOULDN'T_ have been a problem if everything hadn't immediately gone wrong. (we technically can get the box apart but its more effort than its worth at this point)
 ## Less severe problems
 * Servo responsible for rotating the arm wasn’t aligned properly.
   * Added an offset into the code to account for this.
@@ -103,6 +103,6 @@ The final product is, admittedly, not exactly what we had hoped for. Yes, it can
 * One of the arm gears keeps falling off.
   * I'd also love to know the solution. Just hope it doesn't do that.
 * The arm can't rotate over to the slot where it should pick up pieces. (???? It worked fine before??)
-  * This problem just appeared randomly, and our solution is shenanigans. Just fiddle with the blue square tiles and it'll work.
+  * This problem just appeared randomly, and our solution is shenanigans. Just stack the blue square tiles and it'll work.
 # `Reflection`
-It is very apparent that we both underestimated the difficulty of this project and overestimated our own ability to be productive. We finished this project late (and took multiple shortcuts), but the thing can play tic-tac-toe. It can't cheat because we ran out of time, and adding that would probably double the length of the code (which is already ~500 lines). Seeing as we were completely underprepared for this whole endeavor, it went pretty well. The robot does exist, and it can play the game with some difficulty, so overall it was mostly successful.
+It is very apparent that we both underestimated the difficulty of this project and overestimated our own ability to be productive. We finished this project late (and took multiple shortcuts), but the thing can play tic-tac-toe. It can't cheat because we ran out of time, and adding that would probably double the length of the code (which is already ~500 lines). Seeing as we were completely underprepared for this whole endeavor, it went pretty well. The robot does exist, and it can play the game with some difficulty, so overall it was mostly successful. The actual "if there are 2 pieces like this, place here to win" code is very simple, but its made complicated by the sheer amount of if-else statements needed to cover every possible piece configuration. This is then further amplified, as we also need it

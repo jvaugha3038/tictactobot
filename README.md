@@ -83,12 +83,19 @@ The final product is, admittedly, not exactly what we had hoped for. Yes, it can
   * yeah that one is just our fault, get the stuff early next time
 * String is flimsy and terrible and horrible and keeps breaking and makes me sad.
   * The string is the main source of misery. Don't even look at it because it _will_ break/slip off the servo.
+* The servo to wind up the spring was innacurate, so it couldn't consistently drop and pick up the magnet.
+  * This was why the string broke so much. We replaced it with a 180 servo but...
+* The new 180 magnet servo couldn't pick up and drop the magnet.
+  * 180 servos have very limited range, so to be able to get the magnet all the way down and all the way up, we had to hot glue a piece of chopstick to the servo horn to increase its radius.
 * We used so much acrylic.
   * Plan better. Don't use T-slot joints for the box. 
 * Most drunk people have more hand dexterity than this robot.
   * This is a lot of fiddling with variables and offsets. Its doable, but the amount of guess-and-check required is too much for now. We did make progress with it, though.
 * We can't take the box apart anymore because of wires and stuff.
   * Well that _WOULDN'T_ have been a problem if everything hadn't immediately gone wrong. (we technically can get the box apart but its more effort than its worth at this point)
+* The 180 servo to turn the arm stopped functioning well.
+  * For some reason the servo could barely turn one day, and the arm couldn't reach certain squares. You have to "stretch" it out before use :)
+
 ## Less severe problems
 * Servo responsible for rotating the arm wasn’t aligned properly.
   * Added an offset into the code to account for this.

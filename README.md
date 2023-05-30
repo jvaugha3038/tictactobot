@@ -113,7 +113,7 @@ The final product is, admittedly, not exactly what we had hoped for. Yes, it can
 * The Onshape document has **21** documents.
 * Do you know what 21 documents does to a man?   
 * They don't even need to exist, they're mainly drawings and old tests.
-* The folder they're in is called purgatory.
-* 
+* The folder they're in is called purgatory, but this project was hell.
+* (agony)
 # `Reflection`
 It is very apparent that we both underestimated the difficulty of this project and overestimated our own ability to be productive. We finished this project late (and took multiple shortcuts), but the thing can play tic-tac-toe. It can't cheat because we ran out of time, and adding that would probably double the length of the code (which is already ~500 lines). Seeing as we were completely underprepared for this whole endeavor, it went pretty well. The robot does exist, and it can play the game with some difficulty, so overall it was mostly successful. The actual "if there are 2 pieces like this, place here to win" code is very simple, but its made complicated by the sheer amount of if-else statements needed to cover every possible piece configuration. This is then further amplified, as we also needed to add "if there are 2 pieces like this, place here to block opponent" code, which is the same as the win code. This combined to be about 200 lines of code. Now, lets say we actually had time to make the cheating code. That would involve copying the same 100-line block of code again, as well as adding in all of the various cheats. That would probably take about a month to make and test. And then the string in the pick-uppy part would probably break. My point is, this took a very long time because we were not at all prepared for the amount of shenanigans this little robot box would throw at us.

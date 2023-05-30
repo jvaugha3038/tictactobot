@@ -60,7 +60,7 @@ This part is responsible for picking up and dropping pieces, and it's attached t
 ![image](https://github.com/jvaugha3038/tictactobot/assets/112961338/8314c021-9074-407b-83d8-fbfc39e086c0)
 
 # `End Result`
-[video here plz]
+[![Functioning Video]({https://drive.google.com/file/d/17hCYvw_B6M56ZdMtuNaiX5kfcro3rRDn/view?usp=sharing})]({https://drive.google.com/file/d/1-kuSQMUnB3fWygMkd3tYXb0H9D9MQYEh/view?usp=sharing} "It works!")
 The final product is, admittedly, not exactly what we had hoped for. Yes, it can pick up pieces and place them (with some difficulty), but it is also not great at seeing pieces on the board. This means that it occasionally will completely miss a piece, and place one on top of it. This does mean that we can say "Oh it was supposed to cheat anyway" and move on, but besides that, the robot itself is very creaky for some reason. This might just be because we left it in the bin for a while to work on the other project. 
 ## What does the thing actually do?
 1. It scans each spot on the board, looking for the newest piece played
@@ -105,5 +105,7 @@ The final product is, admittedly, not exactly what we had hoped for. Yes, it can
   * I'd also love to know the solution. Just hope it doesn't do that.
 * The arm can't rotate over to the slot where it should pick up pieces. (???? It worked fine before??)
   * This problem just appeared randomly, and our solution is shenanigans. Just stack the blue square tiles and it'll work.
+* The battery pack sticks out the back
+  * We didn't try it with a battery pack until the very end, and it didn't fit! We just connected it by one screw hole and took of the back panel to make it fit.
 # `Reflection`
 It is very apparent that we both underestimated the difficulty of this project and overestimated our own ability to be productive. We finished this project late (and took multiple shortcuts), but the thing can play tic-tac-toe. It can't cheat because we ran out of time, and adding that would probably double the length of the code (which is already ~500 lines). Seeing as we were completely underprepared for this whole endeavor, it went pretty well. The robot does exist, and it can play the game with some difficulty, so overall it was mostly successful. The actual "if there are 2 pieces like this, place here to win" code is very simple, but its made complicated by the sheer amount of if-else statements needed to cover every possible piece configuration. This is then further amplified, as we also needed to add "if there are 2 pieces like this, place here to block opponent" code, which is the same as the win code. This combined to be about 200 lines of code. Now, lets say we actually had time to make the cheating code. That would involve copying the same 100-line block of code again, as well as adding in all of the various cheats. That would probably take about a month to make and test. And then the string in the pick-uppy part would probably break. My point is, this took a very long time because we were not at all prepared for the amount of shenanigans this little robot box would throw at us.

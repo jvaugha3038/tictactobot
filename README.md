@@ -76,19 +76,19 @@ The final product is, admittedly, not exactly what we had hoped for. Yes, it can
 * The gears in the arm were inconsistent.
   * We 3D printed one of them to solve the problem.
 * The servo powering the rack and pinion kept destroying itself (tried to spin too hard)
-  * We used the servo horn instead of screwing the gear directly onto the servo.
-* Servo responsible for rotating the arm could move around in the box.
+  * We used the servo horn instead of screwing the gear directly onto the servo. Two servos were murdered before we fixed it though.
+* The servo responsible for rotating the arm could move around in the box.
   * Added a small 3D printed part to the front of the box that allows the servo to be screwed in place.
 * We waited about 2 weeks to get string and magnets
   * yeah that one is just our fault, get the stuff early next time
 * String is flimsy and terrible and horrible and keeps breaking and makes me sad.
   * The string is the main source of misery. Don't even look at it because it _will_ break/slip off the servo.
-* The servo to wind up the spring was innacurate, so it couldn't consistently drop and pick up the magnet.
+* The servo to wind up the string was inaccurate, so it couldn't consistently drop and pick up the magnet.
   * This was why the string broke so much. We replaced it with a 180 servo but...
 * The new 180 magnet servo couldn't pick up and drop the magnet.
   * 180 servos have very limited range, so to be able to get the magnet all the way down and all the way up, we had to hot glue a piece of chopstick to the servo horn to increase its radius.
 * We used so much acrylic.
-  * Plan better. Don't use T-slot joints for the box. 
+  * Plan better. Don't use T-slot joints for the box. Actually, just don't use T-slot joints ever.
 * Most drunk people have more hand dexterity than this robot.
   * This is a lot of fiddling with variables and offsets. Its doable, but the amount of guess-and-check required is too much for now. We did make progress with it, though.
 * We can't take the box apart anymore because of wires and stuff.

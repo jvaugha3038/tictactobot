@@ -28,6 +28,8 @@ If you’re ever struggling to think of things your robot needs to do (or even i
 ## First Sketches
 The design of our robot changed a lot during the first few days of planning. We originally planned to have a big rotating pole pinion which the arm would scale up and down while extending. It was a little ambitious, and after realizing that we would have to use multiple stepper motors, all reliant on a flimsy piece of acrylic, we decided to switch it up. The design we settled on was a cylindrical arm. We would have an arm that could extend outwards and be rotated. (see image on right). But you may have noticed that the arm depicted there can move up and down, and given that our bot has to be able to pick up pieces, we need some vertical movement. But given our sketches so far, there was no way to make a reliable elevation system that wouldn’t risk the stability of the arm. We came up with the idea of attaching a magnet to the end of the arm which could be raised and lowered to pick up pieces. This seemed much simpler than our original ideas of claws that would pick up the pieces.
 
+## Bill of Materials
+
 # `CAD`
 https://cvilleschools.onshape.com/documents/9f7a2ab06042344ad68077a3/w/577d4a05bb440caa0ac4fef6/e/6a6642626d928ba19f00adb1
 ## Proof of Concept

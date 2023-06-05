@@ -60,6 +60,52 @@ This part is responsible for picking up and dropping pieces, and it's attached t
 ## The Whole Thingy
 
 ![image](https://github.com/jvaugha3038/tictactobot/assets/112961338/8314c021-9074-407b-83d8-fbfc39e086c0)
+## Bill of Materials
+| Item | #  | Name                                 |
+| ---- | -- | ------------------------------------ |
+| 1    | 1  | ArduinoUno                           |
+| 2    | 1  | 6AA Battery Holder                   |
+| 3    | 1  | box front                            |
+| 4    | 1  | box left                             |
+| 5    | 1  | box back                             |
+| 6    | 1  | box right                            |
+| 7    | 1  | Standard Servo FS5106B               |
+| 8    | 1  | Standard Servo Horn 4 Arm            |
+| 9    | 1  | box top                              |
+| 10   | 1  | arm Back Panel                       |
+| 11   | 1  | arm Base                             |
+| 12   | 1  | arm Front Panel                      |
+| 13   | 1  | arm Left                             |
+| 14   | 1  | arm Rack                             |
+| 15   | 1  | arm Right                            |
+| 16   | 1  | Spur gear (27 teeth)                 |
+| 17   | 1  | arm Top Panel                        |
+| 18   | 2  | Micro Servo 180 SG92R                |
+| 19   | 1  | Hex machine screw nut #4-40          |
+| 20   | 1  | spinny                               |
+| 21   | 1  | board base                           |
+| 22   | 1  | board top                            |
+| 23   | 5  | X base                               |
+| 24   | 5  | X top                                |
+| 25   | 5  | O top                                |
+| 26   | 5  | O base                               |
+| 27   | 1  | wall                                 |
+| 28   | 1  | spinny                               |
+| 29   | 1  | servo holder                         |
+| 30   | 1  | box base                             |
+| 31   | 1  | handle                               |
+| 32   | 1  | Axel & Gears                         |
+| 33   | 1  | piece holder                         |
+| 34   | 1  | string                               |
+| 35   | 6  | #4-40 x 5/8" socket head cap screws  |
+| 36   | 2  | #4-40 x 3/8" button head cap screws  |
+| 37   | 4  | #1-72 x 3/8 " socket head cap screws |
+| 38   | 4  | #4-40 x 1/2" socket head cap screws  |
+| 39   | 1  | #4-40 x 1" socket head cap screws    |
+| 40   | 4  | #1-72 Machine screw nuts             |
+| 41   | 11 | magnets                              |
+| 42   | 10 | #4-40 machine screw nuts             |
+| 43   | 6  | spacers                              |
 
 # `End Result`
 [Video](https://drive.google.com/file/d/1-kuSQMUnB3fWygMkd3tYXb0H9D9MQYEh/view?usp=sharing)
